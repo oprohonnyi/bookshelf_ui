@@ -1,0 +1,14 @@
+#app-wrapper {
+  box-sizing: border-box;
+  height: 100%;
+  display: block;
+  padding: 20px 40px;
+  position: fixed;
+  width: 100%;
+}
+
+#app-wrapper .separator {
+  margin: 20px 0;
+  height: 2px;
+  background-color: #000;
+}

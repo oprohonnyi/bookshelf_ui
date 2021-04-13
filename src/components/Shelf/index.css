@@ -1,0 +1,59 @@
+#shelf-wrapper {
+
+}
+
+#shelf-wrapper header {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#shelf-wrapper .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 290px;
+    overflow-x: auto;
+}
+
+#shelf-wrapper .flex-container > div {
+    width: 150px;
+    margin: 10px;
+    font-size: 14px;
+}
+
+#shelf-wrapper .flex-container > div.book-wrapper div.cover {
+    text-align: center;
+    height: 150px;
+    width: 130px;
+    overflow: hidden;
+}
+
+#shelf-wrapper .flex-container > div.book-wrapper div.cover img {
+    height: 150px;
+}
+
+#shelf-wrapper .flex-container > div.book-wrapper .title {
+    font-weight: 700;
+    padding: 10px 0 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 130px;
+}
+
+#shelf-wrapper .flex-container > div.book-wrapper .author {
+    font-size: 12px;
+}
+
+#shelf-wrapper .flex-container > div.book-wrapper button {
+    margin-top: 10px;
+    display: block;
+    padding: 6px 12px;
+}
+
+#shelf-wrapper .flex-container > div.book-wrapper .info {
+    color: #aaa;
+    padding-top: 17px;
+    font-size: 12px;
+    text-align: center;
+}
